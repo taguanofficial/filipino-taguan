@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Black Theme Front Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet"> <!-- Link to Creepster font -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="..." crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css"> <!-- Your custom styles -->
+  <style>
+   .social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  background-color: #FF4500; /* Dark orange color - adjust as needed */
+  margin: 0 8px;
+  text-align: center;
+  line-height: 50px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(255, 69, 0, 0.5); /* Orange shadow effect */
+}
+
+.social-icon i {
+  color: black; /* Icon color */
+  font-size: 25px;
+}
+
+.social-icon:hover {
+  transform: rotate(360deg) scale(1.1); /* Rotate and scale on hover */
+}
+
+.youtube {
+  background-color: #FF0000; /* Adjust color as needed */
+}
+
+.facebook {
+  background-color: #3b5998; /* Adjust color as needed */
+}
+
+.instagram {
+  background-color: #bc2a8d; /* Adjust color as needed */
+}
+/* Styles for the scary "Tagu-Taguan" heading */
+/* Styles for the scary "Tagu-Taguan" heading */
+#scary-heading {
+  font-family: 'Creepster', cursive; /* Applying the Creepster font for a creepy look */
+  font-size: 2.5rem; /* Adjust the font size as needed */
+  text-shadow: 2px 2px 4px #000; /* Adding a text shadow for depth */
+  color: #8B0000; /* Dark red color for a scarier appearance */
+  transition: transform 0.3s ease-in-out; /* Adding a transition for hover effect */
+}
+
+#scary-heading:hover {
+  transform: scale(1.1) rotate(-5deg); /* Scaling and rotating the text on hover for a creepy effect */
+  color: #FF4500; /* Change text color on hover to a lighter shade */
+}
+
+#scary-header {
+  font-family: 'Creepster', cursive; /* Applying the Creepster font for a creepy look */
+  font-size: 5rem; /* Adjust the font size as needed */
+  text-shadow: 2px 2px 4px #000; /* Adding a text shadow for depth */
+  color: #8B0000; /* Dark red color for a scarier appearance */
+  transition: transform 0.3s ease-in-out; /* Adding a transition for hover effect */
+}
+
+#scary-header:hover {
+  transform: scale(1.1) rotate(-5deg); /* Scaling and rotating the text on hover for a creepy effect */
+  color: #FF4500; /* Change text color on hover to a lighter shade */
+}
+
+#bs5{
+  color: #ff4500;
+}
+
+
+  </style>
+</head>
+<body>
+ 
+  <header>
+    <!-- Button to trigger sound -->
+  <button class="sound-button" id="soundButton">
+   <i class="bi bi-hand-index"></i> Hello
+  </button>
+
+  <!-- ... (rest of your HTML content) ... -->
+
+  <!-- Include the audio file -->
+  <audio id="audio">
+    <source src="/vid/pree.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+    <!-- Video background for the header -->
+    <video autoplay loop muted id="header-video">
+      <source src="./vid/spok3.mp4" type="video/mp4">
+      <!-- Add different video formats for browser compatibility -->
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="custom-heading container text-center py-5">
+  <h1 class="scary-font" id="scary-header">Tagu-Taguan</h1>
+  <p id="bs5">By: BS5AA Group 2</p>
+ <div class="social-icons">
+  <a href="https://www.youtube.com/" target="_blank" class="social-icon youtube">
+    <i class="fab fa-youtube"></i>
+  </a>
+  <a href="https://www.facebook.com/" target="_blank" class="social-icon facebook">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://www.instagram.com/" target="_blank" class="social-icon instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+</div>
+
+    
+ <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html" id="scary-heading">Tagu-Taguan</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link nav-effect" href="#" id="scary-heading">Download</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-effect" href="about.html" id="scary-heading">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <div class="container">
+  <div class="py-5 center-text content-box">
+    <h2 class="horror-font">Istorya</h2>
+    <p class="horror-font" id="isto">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusamus quasi corporis perspiciatis consectetur quaerat amet voluptates! Repudiandae eos sed iure aperiam quisquam perspiciatis corporis ipsa natus, dolor maiores reprehenderit?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusamus quasi corporis perspiciatis consectetur quaerat amet voluptates! Repudiandae eos sed iure aperiam quisquam perspiciatis corporis ipsa natus, dolor maiores reprehenderit?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusamus quasi corporis perspiciatis consectetur quaerat amet voluptates! Repudiandae eos sed iure aperiam quisquam perspiciatis corporis ipsa natus, dolor maiores reprehenderit?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusamus quasi corporis perspiciatis consectetur quaerat amet voluptates! Repudiandae eos sed iure aperiam quisquam perspiciatis corporis ipsa natus, dolor maiores reprehenderit?
+      </p>
+    </div>
+  </div>
+  </header>
+
+  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+  <script>
+    // JavaScript to handle button click and play sound
+    const soundButton = document.getElementById('soundButton');
+    const audio = document.getElementById('audio');
+
+    soundButton.addEventListener('click', function() {
+      audio.play();
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

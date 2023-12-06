@@ -1,0 +1,179 @@
+/* Style the body */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+  header {
+      position: relative;
+      text-align: center;
+     
+      height: 100vh;
+    }
+
+    #header-video {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1;
+            object-fit: cover;
+
+    }
+
+    .header-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+    }
+
+    .header-content h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .header-content p {
+      margin: 10px 0 0;
+    }
+
+
+   .container {
+      padding: 00px;
+      text-align: center;
+    }
+
+  /* Apply the Creepster font to specific elements */
+    h1, p ,h2, a {
+      font-family: 'Creepster', cursive;
+      /* Additional spooky or Halloween-themed styles can be added here */
+    }
+.center-text {
+    text-align: center;
+}
+.black-header{
+    background-color: #000;
+    color: #fff;
+}
+
+    .navbar {
+      background-color: transparent;
+    }
+ .nav-link {
+  position: relative;
+  color: #ffffff;
+  transition: color 0.4s ease;
+  overflow: hidden;
+}
+
+/* Pseudo-element for creating the hover effect */
+.nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #8d8d8d; /* Change to your desired color */
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+}
+
+/* Hover effect */
+.nav-link:hover::before {
+  transform: scaleX(1);
+}
+
+/* Background color change on hover */
+.nav-link:hover {
+  color: #797979; /* Change to your desired hover color */
+}
+    .navbar-brand,
+    .navbar-nav > li > a {
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+    .navbar-toggler {
+      border-color: #fff;
+    }
+
+    .navbar-toggler-icon {
+      background-color: #fff;
+    }
+
+    .navbar-collapse {
+      text-align: center;
+    }
+
+    .navbar-nav {
+      margin-top: 10px;
+    }
+
+    .navbar-nav .nav-item {
+      margin: 0 15px;
+    }
+    /* Borders for different sections */
+    .content-box {
+      border: 5px solid #000; /* Border for the entire content box */
+      padding: 80px 20px;
+      text-align: center;
+      margin-bottom: 20px;
+
+    }
+
+    .about-section, .gumawa-section {
+      border: 1px solid #ccc; /* Borders for individual sections */
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+     h1 {
+      font-size: 5em; /* Set the font size for h1 */
+    }
+
+        #video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+    }
+
+     /* Add transition effect for page content */
+    #page-content {
+      opacity: 1;
+      transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+      transform: translateY(0);
+    }
+
+    #page-content.fade-out {
+      opacity: 0;
+      transform: translateY(-20px); /* Adjust as needed based on your design */
+    }
+
+     .sound-button {
+      position: fixed;
+      top: 50%; /* Adjust as needed */
+      right: 20px;
+      transform: translateY(-50%);
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 9999;
+    }
+
+  
+
